@@ -11,10 +11,11 @@ export default function Home() {
           height={40}
           priority
         />
+            <p> Web Design and Developer
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+          <h3 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Hello world! I created a web site for experiments.
-          </h1>
+          </h3>
         </div>
       </main>
     </div>
