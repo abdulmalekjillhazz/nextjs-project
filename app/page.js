@@ -5,14 +5,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6">
       {/* Navigation */}
-      <nav className ="absolute top-20 right-6 flex gap-30 text-4xl font-medium">
-  <Link href="/about" className ="no-underline text-white hover:text-gray-400 transition duration-200">About</Link>
-  <Link href="/services" className ="no-underline text-white hover:text-gray-400 transition duration-200">Services</Link>
-  <Link href="/blog" className ="no-underline text-white hover:text-gray-400 transition duration-200">Blog</Link>
-</nav>
-       
 
-      {/* Hero Section */}
+       {/* Hero Section */}
       <section className="text-center flex flex-col items-center gap-6">
        
         <p className="text-gray-300 md:text-lg">
